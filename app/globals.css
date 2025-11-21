@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+ :root {
+    --background: 30 100% 96%;
+    --foreground: 30 5% 10%;
+    --ptimary: 330 81% 60%;
+    --radius: 0.5rem;
+ }
+}
+@layerbase {
+body {
+ @apply bg-backround text-foreground
+}
+}
