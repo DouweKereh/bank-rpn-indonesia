@@ -1,32 +1,26 @@
 {
-"name": "bank-rpn-indonesia"",
-"version": "0.1.0",
-"private": true",
-"skripts": {
- "dev": "nex build",
- "bulit": "nex build",
- "start": "nex start",
- "lint": "next lint"
+ "name": "bank-rpn-indonesia",
+ "version": "0.1.0",
+ "private": true",
+ "scripts": {
+  "dev": "nex dev",
+  "bulit": "nex build",
+  "start": "nex start",
 },
 "dependencies": {
  "next": "15.1.4",
  "react": "^19.0.0",
  "react-dom": "^19.0.0",
- "lucide-react": "^19.0.0",
- "Class-variance-authority": "^0.7.1",
  "clsx": "^2.1.1",
  "tailwind-merge": "2.6.0",
- "swr": "^2.2.5"
 },
 "devDependencies":{
  "@types/node": "^22",
  "@types/react": "^19",
- "@types/reaqct-dom": "^19",
+ "@types/react-dom": "^19",
  "typescript": "5",
  "tailwindcss": "^3.4.1",
  "postcss": "^8",
  "autoprefixer": "^10.4.20",
-"eslint": "^9",
-"eslint-config-nex",
-}
+ }
 }
